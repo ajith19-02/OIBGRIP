@@ -63,7 +63,7 @@ body{
     font-size: 14px;
     border-radius: 6px;
     color: black;
-    background: blueviolet;
+    background: whitesmoke;
     width: 55%;
     padding: 10px;
     flex-basis: 55%;
@@ -126,8 +126,8 @@ body{
     outline: none;
     font-size: 14px;
     border-radius: 6px;
-    color: pink;
-    background: #042a5ec7;
+    color: black;
+    background: whitesmoke;
     width: 60%;
     padding: 10px;
     flex-basis: 70%;
