@@ -5,14 +5,24 @@
     font-family: 'poppins', Arial, Helvetica, sans-serif;
 }
 body{
+    background: url(img2.jpeg) no-repeat center fixed; 
+    background-size: cover;
     width: 100vw;
     height: 100vh;
     background-color: #fff;
     color: #fff;
     
 }
+h1{
+text-align: center;
+color: rgb(56, 56, 56);
+background-color: red;
+
+}
 .container{
-    background: greenyellow;
+    border-color:black;
+    border-radius: 2px;
+    background:#368BC1 ;
     display: flex;
     height: 410px;
     width: 390px;
@@ -35,7 +45,7 @@ body{
 .title{
     font-size: 25px;
     font-weight: 600;
-    color: black;
+    color: rgb(56, 56, 56);
     display: flex;
     justify-content: center;
     text-align: center;
@@ -62,7 +72,7 @@ body{
     outline: none;
     font-size: 14px;
     border-radius: 6px;
-    color: black;
+    color:black;
     background: whitesmoke;
     width: 55%;
     padding: 10px;
@@ -90,8 +100,8 @@ body{
     outline: none;
     font-size: 14px;
     border-radius: 6px;
-    color: #fff;
-    background: #042a5ec7;
+    color:goldenrod;
+    background: darkslategray;
     padding: 10px;
     cursor: pointer;
 }
@@ -126,10 +136,20 @@ body{
     outline: none;
     font-size: 14px;
     border-radius: 6px;
-    color: black;
+    color:black;
     background: whitesmoke;
     width: 60%;
     padding: 10px;
     flex-basis: 70%;
     cursor: default;
+}
+.text-center{
+    text-align: center;
+    color: darkorchid;
+    background-color: darkorange;
+    padding: 1px;
+    position: absolute;
+    left: 675px;
+    bottom: 4px;
+
 }
